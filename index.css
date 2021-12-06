@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-size: 36px;
+  background-color: transparent;
+}
+.winner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  background-color: transparent;
+}
+.hidden {
+  display: none;
+}
